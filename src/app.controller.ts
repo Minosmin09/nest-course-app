@@ -17,6 +17,10 @@ export class AppController {
   getJSON2(){
     return this.appService.getJSON2();
   }
+  @Get('/get_postman')
+  getpsoman(){
+    return this.appService.getpostman();
+  }
 
 
 

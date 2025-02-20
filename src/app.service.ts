@@ -18,6 +18,9 @@ export class AppService {
     lastname: 'Min',
     age: 20,
 
-  }
+  };
+}
+getpostman(){
+  return 'we use Postman';
 }
 }
